@@ -1,0 +1,122 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navyblue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--lightslate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navybluemodal: #2e2f42;
+	--grey: #2e2f42;
+	--white: #ffffff;
+	--dairy: #fcfcfc;
+	--activehover: #000000;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--slate);
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-align: left;
+}
+.web {
+	color: var(--iris);
+}
+.studio {
+	color: var(--navyblue);
+}
+.navi {
+	font-weight: 500;
+	text-align: left;
+	color: var(--navyblue);
+}
+.contact {
+	color: var(--slate);
+}
+.interactive {
+	text-decoration: none;
+}
+.interactive:hover {
+	color: var(--ocean);
+	text-decoration-line: underline;
+	border-radius: 2px;
+}
+.interactive:focus {
+	color: var(--activehover);
+}
+.header-one {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--white);
+}
+.dark-bg {
+	background-color: var(--navyblue);
+	color: var(--cloud);
+}
+.button {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	border-radius: 4px;
+	border: none;
+	line-height: 1.5;
+}
+.button:hover {
+	cursor: pointer;
+}
+.b-one {
+	text-align: left;
+	color: var(--white);
+	background-color: var(--iris);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	border: none;
+}
+.b-one:hover,
+.b-one:focus {
+	background-color: var(--ocean);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.header-three {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	text-align: left;
+	color: var(--navyblue);
+}
+.header-two {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--navyblue);
+}
+.footer {
+	color: var(--cloud);
+}
+.b-two {
+	text-align: center;
+	background-color: var(--cloud);
+	color: var(--iris);
+	border: 1px solid var(--cornflower);
+}
+.b-two:hover,
+.b-two:focus {
+	color: var(--white);
+	background-color: var(--ocean);
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+		0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
