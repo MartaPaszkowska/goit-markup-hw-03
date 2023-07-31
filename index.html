@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+    integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,19 +17,21 @@
 
 <body>
   <header>
-    <a href="https://webstudio.com" class="interactive"><span class="logo web">WEB</span>
-      <span class="logo studio">STUDIO</span></a>
-    <nav>
-      <ul>
-        <li><a href="./index.html" class="interactive navi">Studio</a></li>
-        <li><a href="./portfolio.html" class="interactive navi">Portfolio</a></li>
-        <li><a href="#.html" class="interactive navi">Contacts</a></li>
+    <div class="container top">
+      <a href="https://webstudio.com" class="logo"><span class="web">WEB</span><span class="studio">STUDIO</span></a>
+      <ul class="navi">
+        <li><a href="./index.html" class="item-navi">Studio</a></li>
+        <li><a href="./portfolio.html" class="item-navi">Portfolio</a></li>
+        <li><a href="#.html" class="item-navi">Contacts</a></li>
       </ul>
-    </nav>
-    <ul>
-      <li><a href="tel:+110001111111" class="interactive contact">+11 (000) 111-11-11</a></li>
-      <li><a href="mailto:info@devstudio.com" class="interactive contact">info@devstudio.com</a></li>
-    </ul>
+      </nav>
+      <ul class="contact">
+        <li><a href="tel:+110001111111" class="item-contact">+11 (000) 111-11-11</a>
+        </li>
+        <li><a href="mailto:info@devstudio.com" class="item-contact">info@devstudio.com</a>
+        </li>
+      </ul>
+    </div>
   </header>
 
   <main>
